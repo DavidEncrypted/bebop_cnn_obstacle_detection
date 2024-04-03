@@ -1,0 +1,6 @@
+*.pkl
+*.pt
+*.onnx
+data/
+
+/__pycache__/
