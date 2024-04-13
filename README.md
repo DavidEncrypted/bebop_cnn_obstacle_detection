@@ -1,5 +1,28 @@
 # Bebob cnn obstacle detection
 
+# Dataset
+For the competition we collected 7000 images, these are used to train a cnn to detect obstacles.
+
+Download the dataset from:
+```
+https://mega.nz/file/YbsFxZrK#wl90ytVbSUDmdfBoJq5j4N9VfpQjw3vUHddsxzjS5AE
+```
+Extract the content into `./data/`
+You should end up with a folder `./data/collected_data/` and `./data/existing_data/`
+
+# Installation
+Install onnx2c, used to convert the model onnx to c
+`git clone https://github.com/kraiskil/onnx2c.git`
+
+Install:
+```
+pip install -r requirements.txt
+```
+# Run
+1. Run through all the cells in `dataset_create.ipynb`.
+2. Run all the cells in `custom_cnn.ipynb`.
+3. Follow onnx2c instructions to convert output onnx file to c
+4. Move the c file to the paparazzi repo/branch
 ## ...
 MobileNetv3 from:
 
