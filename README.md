@@ -1,4 +1,6 @@
 # Bebob cnn obstacle detection
+This repo contains the code to create a custom version of MobileNetv3, called MobileNetv3-tiny. This was designed specifically to be used onboard of a parrot bebop drone. The model is small enough to run with 6 FPS. The repo also contains the code/instructions to port the generated model to c to be able to compile it for arm hardware.
+
 
 # Dataset
 For the competition we collected 7000 images, these are used to train a cnn to detect obstacles.
